@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido id="PEDI01">
+        <fecha></fecha>
+        <cliente>
+            <nombre></nombre>
+            <apellido></apellido>
+            <email></email>
+        </cliente>
+        <direccion_envio></direccion_envio>
+        <productos>
+        <producto id="PROD01">
+            <nombre></nombre>
+            <cantidad></cantidad>
+            <precio_unitario></precio_unitario>
+        </producto>
+        <producto id="PROD02">
+            <nombre></nombre>
+            <cantidad></cantidad>
+            <precio_unitario></precio_unitario>
+        </producto>
+        </productos>
+        <total></total>
+    </pedido>
+
+    <pedido id="PEDI02">
+        <fecha></fecha>
+        <cliente>
+            <nombre></nombre>
+            <apellido></apellido>
+            <email></email>
+        </cliente>
+        <direccion_envio></direccion_envio>
+        <productos>
+        <producto id="PROD03">
+            <nombre></nombre>
+            <cantidad></cantidad>
+            <precio_unitario></precio_unitario>
+        </producto>
+        <producto id="PROD04">
+            <nombre></nombre>
+            <cantidad></cantidad>
+            <precio_unitario></precio_unitario>
+        </producto>
+        </productos>
+        <total></total>
+    </pedido>
+
+    <pedido id="PEDI03">
+        <fecha></fecha>
+        <cliente>
+            <nombre></nombre>
+            <apellido></apellido>
+            <email></email>
+        </cliente>
+        <direccion_envio></direccion_envio>
+        <productos>
+        <producto id="PROD05">
+            <nombre></nombre>
+            <cantidad></cantidad>
+            <precio_unitario></precio_unitario>
+        </producto>
+        <producto id="PROD06">
+            <nombre></nombre>
+            <cantidad></cantidad>
+            <precio_unitario></precio_unitario>
+        </producto>
+        </productos>
+        <total></total>
+    </pedido>
+</pedidos>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tienda>
+    <producto id="PROD01">
+        <nombre>Portatil</nombre>
+        <marca>Lenovo</marca>
+        <precio>899.99</precio>
+        <stock>10</stock>
+        <categoria>Ordenadores</categoria>
+    </producto>
+
+    <producto id="PROD02">
+        <nombre>Monitor</nombre>
+        <marca>Samsung</marca>
+        <precio>249.99</precio>
+        <stock>25</stock>
+        <categoria>Monitores</categoria>
+    </producto>
+
+    <producto id="PROD03">
+        <nombre>Teclado</nombre>
+        <marca>Logitech</marca>
+        <precio>59.99</precio>
+        <stock>15</stock>
+        <categoria>Perifericos</categoria>
+    </producto>
+
+    <producto id="PROD04">
+        <nombre>Raton</nombre>
+        <marca>Razer</marca>
+        <precio>49.99</precio>
+        <stock>20</stock>
+        <categoria>Perifericos</categoria>
+    </producto>
+
+    <producto id="PROD05">
+        <nombre>Disco SSD </nombre>
+        <marca>Kiangston</marca>
+        <precio>79.99</precio>
+        <stock>12</stock>
+        <categoria>Almacenamiento</categoria>
+    </producto>
+</tienda>

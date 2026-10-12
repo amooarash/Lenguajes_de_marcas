@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bibloteca>
+<libro id="01">
+        <titulo>Cometas en el cielo</titulo>
+        <autor>Khaled Hosseini</autor>
+        <año-publicacion>2004</año-publicacion>
+        <genero>drama</genero>
+        <ISBN>9780143415862</ISBN>
+</libro>
+
+<libro id="02">
+    <titulo>El buho ciego</titulo>
+    <autor>Sadegh Hedayat</autor>
+    <año-publicacion>1937</año-publicacion>
+    <genero>Novela</genero>
+    <ISBN>9780394174457</ISBN>
+</libro>
+
+<libro id="03">
+    <titulo>Sus Ojos</titulo>
+    <autor>Bozorg Alavi</autor>
+    <año-publicacion>1952</año-publicacion>
+    <genero>Novela</genero>
+    <ISBN>9798285104377</ISBN>
+</libro>
+
+
+<libro id="04">
+    <titulo>Sinfonia de los muertos</titulo>
+    <autor>Abbas Maroufi</autor>
+    <año-publicacion>1989</año-publicacion>
+    <genero>Novela</genero>
+    <ISBN>9788417269906</ISBN>
+</libro>
+
+<libro id="06">
+    <titulo>Kelidar</titulo>
+    <autor>Mahmoud Dowlatabadi</autor>
+    <año-publicacion>1984</año-publicacion>
+    <genero>Novela</genero>
+    <ISBN>9783293201453</ISBN>
+</libro>
+
+</bibloteca>

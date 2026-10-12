@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tienda>
+
+    <informacion>
+        <nombre>Tech Valencia</nombre>
+        <CIF>B12345678</CIF>
+        <email>info@techvalencia.com</email>
+        <telefono>960123456</telefono>
+
+        <direccion>
+            <calle>Calle Colón</calle>
+            <numero>25</numero>
+            <ciudad>Valencia</ciudad>
+            <codigo_postal>46004</codigo_postal>
+            <pais>España</pais>
+        </direccion>
+    </informacion>
+
+
+    <catalogo>
+
+        <producto id="101">
+            <nombre>Portátil</nombre>
+            <categoria>Ordenadores</categoria>
+            <precio>800</precio>
+            <stock>10</stock>
+            <activo>si</activo>
+        </producto>
+
+        <producto id="102">
+            <nombre>Ratón</nombre>
+            <categoria>Periféricos</categoria>
+            <precio>25</precio>
+            <stock>30</stock>
+            <activo>si</activo>
+        </producto>
+
+        <producto id="103">
+            <nombre>Teclado</nombre>
+            <categoria>Periféricos</categoria>
+            <precio>50</precio>
+            <stock>20</stock>
+            <activo>si</activo>
+        </producto>
+
+        <producto id="104">
+            <nombre>Monitor</nombre>
+            <categoria>Monitores</categoria>
+            <precio>200</precio>
+            <stock>15</stock>
+            <activo>si</activo>
+        </producto>
+
+        <producto id="105">
+            <nombre>Auriculares</nombre>
+            <categoria>Audio</categoria>
+            <precio>80</precio>
+            <stock>0</stock>
+            <activo>no</activo>
+        </producto>
+
+    </catalogo>
+
+
+    <clientes>
+
+        <cliente id="1">
+            <nombre>Arash</nombre>
+            <apellidos>Tahamtan</apellidos>
+            <email>arash@email.com</email>
+            <telefono>612345678</telefono>
+
+            <direccion>
+                <calle>Calle Colón</calle>
+                <numero>25</numero>
+                <ciudad>Valencia</ciudad>
+                <codigo_postal>46004</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </cliente>
+
+
+        <cliente id="2">
+            <nombre>Carlos</nombre>
+            <apellidos>García López</apellidos>
+            <email>carlos@email.com</email>
+            <telefono>623456789</telefono>
+
+            <direccion>
+                <calle>Avenida del Puerto</calle>
+                <numero>40</numero>
+                <ciudad>Valencia</ciudad>
+                <codigo_postal>46023</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </cliente>
+
+
+        <cliente id="3">
+            <nombre>Lucía</nombre>
+            <apellidos>Martínez Ruiz</apellidos>
+            <email>lucia@email.com</email>
+            <telefono>634567890</telefono>
+
+            <direccion>
+                <calle>Calle Xàtiva</calle>
+                <numero>15</numero>
+                <ciudad>Valencia</ciudad>
+                <codigo_postal>46002</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </cliente>
+
+
+        <cliente id="4">
+            <nombre>Daniel</nombre>
+            <apellidos>Sánchez Pérez</apellidos>
+            <email>daniel@email.com</email>
+            <telefono>645678901</telefono>
+
+            <direccion>
+                <calle>Calle de la Paz</calle>
+                <numero>30</numero>
+                <ciudad>Valencia</ciudad>
+                <codigo_postal>46003</codigo_postal>
+                <pais>España</pais>
+            </direccion>
+        </cliente>
+
+    </clientes>
+
+
+    <pedidos>
+
+        <pedido id="1">
+            <fecha>2026-09-18</fecha>
+            <cliente id="1"/>
+
+            <direccion_envio>
+                <calle>Calle Colón</calle>
+                <numero>25</numero>
+                <ciudad>Valencia</ciudad>
+                <codigo_postal>46004</codigo_postal>
+                <pais>España</pais>
+            </direccion_envio>
+
+            <estado>Entregado</estado>
+
+            <productos>
+                <producto id="101">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>800</precio_unitario>
+                </producto>
+
+                <producto id="102">
+                    <cantidad>2</cantidad>
+                    <precio_unitario>25</precio_unitario>
+                </producto>
+            </productos>
+
+            <total>850</total>
+        </pedido>
+
+
+        <pedido id="2">
+            <fecha>2026-09-19</fecha>
+            <cliente id="2"/>
+
+            <direccion_envio>
+                <calle>Avenida del Puerto</calle>
+                <numero>40</numero>
+                <ciudad>Valencia</ciudad>
+                <codigo_postal>46023</codigo_postal>
+                <pais>España</pais>
+            </direccion_envio>
+
+            <estado>Enviado</estado>
+
+            <productos>
+                <producto id="103">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>50</precio_unitario>
+                </producto>
+
+                <producto id="104">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>200</precio_unitario>
+                </producto>
+            </productos>
+
+            <total>250</total>
+        </pedido>
+
+
+        <pedido id="3">
+            <fecha>2026-09-20</fecha>
+            <cliente id="3"/>
+
+            <direccion_envio>
+                <calle>Calle Xàtiva</calle>
+                <numero>15</numero>
+                <ciudad>Valencia</ciudad>
+                <codigo_postal>46002</codigo_postal>
+                <pais>España</pais>
+            </direccion_envio>
+
+            <estado>Procesando</estado>
+
+            <productos>
+                <producto id="101">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>800</precio_unitario>
+                </producto>
+
+                <producto id="103">
+                    <cantidad>2</cantidad>
+                    <precio_unitario>50</precio_unitario>
+                </producto>
+            </productos>
+
+            <total>900</total>
+        </pedido>
+
+
+        <pedido id="4">
+            <fecha>2026-09-21</fecha>
+            <cliente id="4"/>
+
+            <direccion_envio>
+                <calle>Calle de la Paz</calle>
+                <numero>30</numero>
+                <ciudad>Valencia</ciudad>
+                <codigo_postal>46003</codigo_postal>
+                <pais>España</pais>
+            </direccion_envio>
+
+            <estado>Pendiente</estado>
+
+            <productos>
+                <producto id="102">
+                    <cantidad>2</cantidad>
+                    <precio_unitario>25</precio_unitario>
+                </producto>
+
+                <producto id="104">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>200</precio_unitario>
+                </producto>
+            </productos>
+
+            <total>250</total>
+        </pedido>
+
+
+        <pedido id="5">
+            <fecha>2026-09-22</fecha>
+            <cliente id="1"/>
+
+            <direccion_envio>
+                <calle>Calle Colón</calle>
+                <numero>25</numero>
+                <ciudad>Valencia</ciudad>
+                <codigo_postal>46004</codigo_postal>
+                <pais>España</pais>
+            </direccion_envio>
+
+            <estado>Cancelado</estado>
+
+            <productos>
+                <producto id="103">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>50</precio_unitario>
+                </producto>
+
+                <producto id="105">
+                    <cantidad>1</cantidad>
+                    <precio_unitario>80</precio_unitario>
+                </producto>
+            </productos>
+
+            <total>130</total>
+        </pedido>
+
+    </pedidos>
+
+</tienda>

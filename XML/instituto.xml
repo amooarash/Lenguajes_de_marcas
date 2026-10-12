@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<instituto>
+
+    <alumnos>
+
+        <alumno id="1">
+            <nombre>Arash</nombre>
+            <apellidos>Tahamtan</apellidos>
+            <edad>25</edad>
+            <curso>DAM</curso>
+
+            <asignaturas>
+                <asignatura nombre="Programación">
+                    <nota>8</nota>
+                </asignatura>
+                <asignatura nombre="Bases de Datos">
+                    <nota>7</nota>
+                </asignatura>
+                <asignatura nombre="Lenguajes de Marcas">
+                    <nota>9</nota>
+                </asignatura>
+                <asignatura nombre="Sistemas Informáticos">
+                    <nota>8</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+
+        <alumno id="2">
+            <nombre>Carlos</nombre>
+            <apellidos>García López</apellidos>
+            <edad>22</edad>
+            <curso>DAM</curso>
+
+            <asignaturas>
+                <asignatura nombre="Programación">
+                    <nota>6</nota>
+                </asignatura>
+                <asignatura nombre="Bases de Datos">
+                    <nota>8</nota>
+                </asignatura>
+                <asignatura nombre="Lenguajes de Marcas">
+                    <nota>7</nota>
+                </asignatura>
+                <asignatura nombre="Sistemas Informáticos">
+                    <nota>6</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+
+        <alumno id="3">
+            <nombre>Lucía</nombre>
+            <apellidos>Martínez Ruiz</apellidos>
+            <edad>21</edad>
+            <curso>DAM</curso>
+
+            <asignaturas>
+                <asignatura nombre="Programación">
+                    <nota>9</nota>
+                </asignatura>
+                <asignatura nombre="Bases de Datos">
+                    <nota>9</nota>
+                </asignatura>
+                <asignatura nombre="Lenguajes de Marcas">
+                    <nota>8</nota>
+                </asignatura>
+                <asignatura nombre="Sistemas Informáticos">
+                    <nota>7</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+
+        <alumno id="4">
+            <nombre>Daniel</nombre>
+            <apellidos>Sánchez Pérez</apellidos>
+            <edad>23</edad>
+            <curso>DAM</curso>
+
+            <asignaturas>
+                <asignatura nombre="Programación">
+                    <nota>7</nota>
+                </asignatura>
+                <asignatura nombre="Bases de Datos">
+                    <nota>6</nota>
+                </asignatura>
+                <asignatura nombre="Lenguajes de Marcas">
+                    <nota>8</nota>
+                </asignatura>
+                <asignatura nombre="Sistemas Informáticos">
+                    <nota>9</nota>
+                </asignatura>
+            </asignaturas>
+        </alumno>
+
+    </alumnos>
+
+
+    <profesores>
+
+        <profesor id="1">
+            <nombre>Antonio</nombre>
+            <apellidos>García Martínez</apellidos>
+            <asignatura>Programación</asignatura>
+        </profesor>
+
+        <profesor id="2">
+            <nombre>María</nombre>
+            <apellidos>López Sánchez</apellidos>
+            <asignatura>Bases de Datos</asignatura>
+        </profesor>
+
+        <profesor id="3">
+            <nombre>Javier</nombre>
+            <apellidos>Martínez Pérez</apellidos>
+            <asignatura>Lenguajes de Marcas</asignatura>
+        </profesor>
+
+        <profesor id="4">
+            <nombre>Laura</nombre>
+            <apellidos>Fernández Ruiz</apellidos>
+            <asignatura>Sistemas Informáticos</asignatura>
+        </profesor>
+
+    </profesores>
+
+
+    <asignaturas>
+
+        <asignatura id="1">
+            <nombre>Programación</nombre>
+            <profesor>Antonio García Martínez</profesor>
+        </asignatura>
+
+        <asignatura id="2">
+            <nombre>Bases de Datos</nombre>
+            <profesor>María López Sánchez</profesor>
+        </asignatura>
+
+        <asignatura id="3">
+            <nombre>Lenguajes de Marcas</nombre>
+            <profesor>Javier Martínez Pérez</profesor>
+        </asignatura>
+
+        <asignatura id="4">
+            <nombre>Sistemas Informáticos</nombre>
+            <profesor>Laura Fernández Ruiz</profesor>
+        </asignatura>
+
+    </asignaturas>
+
+</instituto>
