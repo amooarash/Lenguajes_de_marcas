@@ -1,0 +1,7 @@
+{
+  "peliculas": [
+    { "titulo": "American Pie", "director": "Paul Weitz", "año": 1999 },
+    { "titulo": "Titanic", "director": "James Cameron", "año": 1997 },
+    { "titulo": "Matrix", "director": "Lana y Lilly Wachowski", "año": 1999 }
+  ]
+}
