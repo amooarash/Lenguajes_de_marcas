@@ -1,0 +1,24 @@
+{
+  "nombre": "Mediamarkt",
+  "direccion": {
+    "calle": "Colón 6",
+    "ciudad": "Valencia"
+  },
+  "productos": [
+    {
+      "nombre": "ordenador",
+      "precio": 900,
+      "disponible": true
+    },
+    {
+      "nombre": "tablet",
+      "precio": 300,
+      "disponible": false
+    },
+    {
+      "nombre": "movil",
+      "precio": 550,
+      "disponible": true
+    }
+  ]
+}
