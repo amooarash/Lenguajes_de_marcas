@@ -1,0 +1,9 @@
+{
+  "nombre": "Pepe",
+  "edad": 28,
+  "direccion": {
+    "calle": "Calle Colón",
+    "ciudad": "Valencia",
+    "codigoPostal": "46004"
+  }
+}
