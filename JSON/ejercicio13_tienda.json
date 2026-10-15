@@ -2,26 +2,26 @@
   "productos": [
     {
       "nombre": "Zapatillas",
-      "precio": "180.00",
-      "Catalogo": "Calzado",
+      "precio": "150.00",
+      "Categoria": "Calzado",
       "disponible": true
     },
     {
       "nombre": "Camiseta",
       "precio": "25.00",
-      "Catalogo": "Ropa",
+      "Categoria": "Ropa",
       "disponible": true
     },
     {
       "nombre": "Pantalón",
       "precio": "50.00",
-      "Catalogo": "Ropa",
+      "Categoria": "Ropa",
       "disponible": false
     },
     {
       "nombre": "Gorra",
       "precio": "15.00",
-      "Catalogo": "Accesorios",
+      "Categoria": "Accesorios",
       "disponible": true
     }
   ]
