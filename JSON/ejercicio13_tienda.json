@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "nombre": "Zapatillas",
+      "precio": "180.00",
+      "Catalogo": "Calzado",
+      "disponible": true
+    },
+    {
+      "nombre": "Camiseta",
+      "precio": "25.00",
+      "Catalogo": "Ropa",
+      "disponible": true
+    },
+    {
+      "nombre": "Pantalón",
+      "precio": "50.00",
+      "Catalogo": "Ropa",
+      "disponible": false
+    },
+    {
+      "nombre": "Gorra",
+      "precio": "15.00",
+      "Catalogo": "Accesorios",
+      "disponible": true
+    }
+  ]
+}

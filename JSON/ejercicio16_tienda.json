@@ -1,0 +1,105 @@
+{
+    "nombre" : "Carrefour",
+    "abierta" : true,
+    "contacto" : {
+        "telefono" : "123456789",
+        "email" : "carrefour@gmail.com"},
+    "categorias" : [
+        {
+            "id": 1,
+            "nombre": "Electrónica",
+            "productos": [
+                {
+                    "sku": 1,
+                    "nombre": "Televisor",
+                    "precio": 499.99,
+                    "stock": 10,
+                    "etiquetas": ["electrónico", "televisión"],
+                    "dimensiones": {
+                        "alto": 50,
+                        "ancho": 100,
+                        "fondo": 20
+                    },
+                    "disponible": true
+                },
+                {
+                    "sku": 2,
+                    "nombre": "Smartphone",
+                    "precio": 699.99,
+                    "stock": 5,
+                    "etiquetas": ["electrónico", "teléfono"],
+                    "dimensiones": {
+                        "alto": 15,
+                        "ancho": 7,
+                        "fondo": 0.8
+                    },
+                    "disponible": true
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "nombre": "Hogar",
+            "productos": [
+                {
+                    "sku": 3,
+                    "nombre": "Aspiradora",
+                    "precio": 199.99,
+                    "stock": 8,
+                    "etiquetas": ["hogar", "limpieza"],
+                    "dimensiones": {
+                        "alto": 30,
+                        "ancho": 25,
+                        "fondo": 40
+                    },
+                    "disponible": true
+                },
+                {
+                    "sku": 4,
+                    "nombre": "Microondas",
+                    "precio": 149.99,
+                    "stock": 12,
+                    "etiquetas": ["hogar", "cocina"],
+                    "dimensiones": {
+                        "alto": 30,
+                        "ancho": 50,
+                        "fondo": 40
+                    },
+                    "disponible": true
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "nombre": "Deportes",
+            "productos": [
+                {
+                    "sku": 5,
+                    "nombre": "Bicicleta",
+                    "precio": 299.99,
+                    "stock": 6,
+                    "etiquetas": ["deporte", "bicicleta"],
+                    "dimensiones": {
+                        "alto": 100,
+                        "ancho": 60,
+                        "fondo": 20
+                    },
+                    "disponible": true
+                },
+                {
+                    "sku": 6,
+                    "nombre": "Balón de fútbol",
+                    "precio": 29.99,
+                    "stock": 20,
+                    "etiquetas": ["deporte", "fútbol"],
+                    "dimensiones": {
+                        "alto": 22,
+                        "ancho": 22,
+                        "fondo": 22
+                    },
+                    "disponible": true
+                }
+            ]
+        }
+    ]
+}

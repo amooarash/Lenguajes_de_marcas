@@ -1,0 +1,49 @@
+{
+  "pedidos": [
+    {
+      "numero": 1,
+      "cliente": {
+        "nombre": "Pepe",
+        "email": "Pepe@gmail.com",
+        "direccion": {
+          "calle": "Calle Colon",
+          "ciudad": "Valencia",
+          "codigoPostal": "46001"
+        }
+      },
+      "producto": "Pantalones",
+      "cantidad": 3,
+      "entregado": false
+    },
+    {
+      "numero": 2,
+      "cliente": {
+        "nombre": "Lola",
+        "email": "Lola@gmail.com",
+        "direccion": {
+          "calle": "Calle Xativa",
+          "ciudad": "Valencia",
+          "codigoPostal": "46001"
+        }
+      },
+      "producto": "Zapatillas",
+      "cantidad": 5,
+      "entregado": true
+    },
+    {
+      "numero": 3,
+      "cliente": {
+        "nombre": "Nacho",
+        "email": "Nacho@gmail.com",
+        "direccion": {
+          "calle": "Calle Manuel Candela",
+          "ciudad": "Valencia",
+          "codigoPostal": "46022"
+        }
+      },
+      "producto": "Camisetas",
+      "cantidad": 1,
+      "entregado": true
+    }
+  ]
+}

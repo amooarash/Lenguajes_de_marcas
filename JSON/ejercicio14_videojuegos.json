@@ -1,0 +1,28 @@
+{
+    "videojuegos":[
+        {
+            "titulo": "God of War",
+            "genero": "Aventura",
+            "precio": "39.99",
+            "multijugador": false
+        },
+        {
+            "titulo": "FIFA 23",
+            "genero": "Deportes",
+            "precio": "59.99",
+            "multijugador": true
+        },
+        {
+            "titulo": "GTA VI",
+            "genero": "Acción",
+            "precio": "100.00",
+            "multijugador": true
+        },
+        {
+            "titulo": "Call of Duty: Modern Warfare",
+            "genero": "Shooter",
+            "precio": "69.99",
+            "multijugador": true
+        }
+    ]
+}
