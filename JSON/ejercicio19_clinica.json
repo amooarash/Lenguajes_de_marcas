@@ -1,0 +1,144 @@
+{
+  "nombre": "Quiron salud",
+  "direccion": {
+    "calle": "Av. de Blasco Ibáñez, 14 ",
+    "ciudad": "València",
+    "codigo postal": "46010"
+  },
+  "configuracion": {
+    "horarioApertura": "08:00",
+    "horarioCierre": "20:00",
+    "duracionCitaMinutos": 30
+  },
+  "medicos": [
+    {
+      "id": 1,
+      "nombre": "Dr. García",
+      "especialidad": "Cardiología",
+      "colegiado": "12345",
+      "consultas": ["Lunes", "Miércoles", "Viernes"]
+    },
+    {
+      "id": 2,
+      "nombre": "Dra. López",
+      "especialidad": "Dermatología",
+      "colegiado": "67890",
+      "consultas": ["Martes", "Jueves"]
+    },
+    {
+      "id": 3,
+      "nombre": "Dr. Martínez",
+      "especialidad": "Pediatría",
+      "colegiado": "54321",
+      "consultas": ["Lunes", "Miércoles"]
+    }
+  ],
+  "pacietes": [
+    {
+      "id": 1,
+      "nombre": "Juan Pérez",
+      "fechaNacimiento": "1980-05-15",
+      "seguro": {
+        "compania": "Seguros S.A.",
+        "numeropoliza": "POL123456"
+      },
+      "alergias": ["Penicilina"],
+      "historial": [
+        {
+            "fecha": "2023-01-01",
+            "dignostico": "Hipertensión",
+            "tratamiento": {
+                "medicamento": "Lisinopril",
+                "dosis": "10mg",
+                "duracionDias": 30
+            }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "María Gómez",
+      "fechaNacimiento": "1990-08-20",
+      "seguro": {
+        "compania": "Salud Plus",
+        "numeropoliza": "POL654321"
+      },
+      "alergias": [],
+      "historial": [
+        {
+            "fecha": "2023-02-15",
+            "dignostico": "Dermatitis",
+            "tratamiento": {
+                "medicamento": "Cremas tópicas",
+                "dosis": "Aplicar 2 veces al día",
+                "duracionDias": 14
+            }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos Ruiz",
+      "fechaNacimiento": "1975-12-05",
+      "seguro": {
+        "compania": "MediCare",
+        "numeropoliza": "POL987654"
+      },
+      "alergias": ["Aspirina"],
+      "historial": [
+        {
+            "fecha": "2023-03-10",
+            "dignostico": "Asma",
+            "tratamiento": {
+                "medicamento": "Inhalador",
+                "dosis": "2 inhalaciones al día",
+                "duracionDias": 60
+            }
+        }
+      ]
+    }
+  ],
+  "citas": [
+    {
+        "id": 1,
+        "pacienteId": 1,
+        "medicoId": 1,
+        "fecha": "2023-04-01",
+        "confirmado": true,
+        "notas": "Paciente con síntomas de hipertensión"
+    },
+    {
+        "id": 2,
+        "pacienteId": 2,
+        "medicoId": 2,
+        "fecha": "2023-04-02",
+        "confirmado": false,
+        "notas": "Paciente con dermatitis leve"
+    },
+    {
+        "id": 3,
+        "pacienteId": 3,
+        "medicoId": 3,
+        "fecha": "2023-04-03",
+        "confirmado": true,
+        "notas": "Paciente con asma crónica"
+    },
+    {
+        "id": 4,
+        "pacienteId": 1,
+        "medicoId": 1,
+        "fecha": "2023-04-10",
+        "confirmado": true,
+        "notas": "Revisión de hipertensión"
+    },
+    {
+        "id": 5,
+        "pacienteId": 2,
+        "medicoId": 2,
+        "fecha": "2023-04-12",
+        "confirmado": false,
+        "notas": "Seguimiento de dermatitis"
+    }
+  ]
+  
+}
