@@ -1,0 +1,141 @@
+{
+  "nombre": "Digitech",
+  "fundacion": 2008,
+  "sede": {
+    "ciudad": "Valencia",
+    "pais": "España",
+    "coordenadas": {
+      "lat": 39.4699,
+      "lng": -0.3763
+    }
+  },
+  "cursos": [
+    {
+      "codigo": "01",
+      "titulo": "programacion web",
+      "profesor": {
+        "nombre": "Pepe",
+        "especialidad": ["html", "css", "javascript"],
+        "contacto": {
+          "email": "pepe@digitech.com",
+          "telefono": "123456789"
+        }
+      },
+      "horario": [
+        {
+          "dia": "lunes a viernes",
+          "inicio": "10:00",
+          "fin": "12:00"
+        }
+      ],
+      "alumnos": [
+        {
+          "nombre": "Juan",
+          "activo": true,
+          "notas": [8, 9, 7],
+          "notaFinal": 8
+        },
+        {
+          "nombre": "Ana",
+          "activo": true,
+          "notas": [9, 8, 10],
+          "notaFinal": 9
+        },
+        {
+          "nombre": "Luis",
+          "activo": false,
+          "notas": [7, 8],
+          "notaFinal": null
+        }
+      ]
+    },
+    {
+      "codigo": "02",
+      "titulo": "bases de datos",
+      "profesor": {
+        "nombre": "Lola",
+        "especialidad": ["mysql", "sql", "nosql"],
+        "contacto": {
+          "email": "lola@digitech.com",
+          "telefono": "987654321"
+        }
+      },
+      "horario": [
+        {
+          "dia": "martes",
+          "inicio": "10:00",
+          "fin": "12:00"
+        },
+        {
+          "dia": "jueves",
+          "inicio": "10:00",
+          "fin": "12:00"
+        }
+      ],
+      "alumnos": [
+        {
+          "nombre": "Maria",
+          "activo": true,
+          "notas": [8, 9, 7],
+          "notaFinal": 8
+        },
+        {
+          "nombre": "Anabell",
+          "activo": true,
+          "notas": [9, 8, 10],
+          "notaFinal": 9
+        },
+        {
+          "nombre": "Antony",
+          "activo": false,
+          "notas": [7, 8],
+          "notaFinal": null
+        }
+      ]
+    },
+    {
+      "codigo": "03",
+      "titulo": "Lenguajes de marcas",
+      "profesor": {
+        "nombre": "Iván",
+        "especialidad": ["html", "xml", "json"],
+        "contacto": {
+          "email": "Ivan@digitech.com",
+          "telefono": "246813579"
+        }
+      },
+      "horario": [
+        {
+          "dia": "Viernes",
+          "inicio": "10:00",
+          "fin": "12:00"
+        },
+        {
+          "dia": "Viernes",
+          "inicio": "12:00",
+          "fin": "14:00"
+        }
+      ],
+      "alumnos": [
+        {
+          "nombre": "Lucy",
+          "activo": true,
+          "notas": [8, 9, 7],
+          "notaFinal": 8
+        },
+        {
+          "nombre": "Tony",
+          "activo": true,
+          "notas": [9, 8, 10],
+          "notaFinal": 9
+        },
+        {
+          "nombre": "Marcelo",
+          "activo": false,
+          "notas": [7, 8],
+          "notaFinal": null
+        }
+      ]
+    }
+  ]
+}
