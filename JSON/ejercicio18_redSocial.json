@@ -1,0 +1,121 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "usuario": "Pepe",
+      "perfil": {
+        "bio": "Soy un usuario de la red social",
+        "ubicacion": "Madrid",
+        "verificado": true
+      },
+      "siguiendo": [2, 3]
+    },
+    {
+      "id": 2,
+      "usuario": "Lola",
+      "perfil": {
+        "bio": "Me encanta compartir fotos",
+        "ubicacion": "Barcelona",
+        "verificado": false
+      },
+      "siguiendo": [1]
+    },
+    {
+      "id": 3,
+      "usuario": "Nacho",
+      "perfil": {
+        "bio": "Amante de la tecnología",
+        "ubicacion": "Valencia",
+        "verificado": true
+      },
+      "siguiendo": [1, 2]
+    }
+  ],
+  "publicaciones": [
+    {
+      "id": 1,
+      "autorID": 1,
+      "texto": "¡Hola a todos! Esta es mi primera publicación.",
+      "fecha": "2024-06-01T10:00:00Z",
+      "reacciones": {
+        "meGusta": 5,
+        "risa": 2,
+        "sorpresa": 1
+      },
+      "hashtags": ["#primeraPublicacion", "#holaMundo"]
+    },
+    {
+      "id": 2,
+      "autorID": 2,
+      "texto": "Hoy he visitado un lugar increíble. ¡Miren las fotos!",
+      "fecha": "2024-06-02T15:30:00Z",
+      "reacciones": {
+        "meGusta": 10,
+        "risa": 3,
+        "sorpresa": 1
+      },
+      "hashtags": []
+    },
+    {
+      "id": 3,
+      "autorID": 3,
+      "texto": "Estoy emocionado por el nuevo proyecto en el que estoy trabajando.",
+      "fecha": "2024-06-03T09:45:00Z",
+      "reacciones": {
+        "meGusta": 15,
+        "risa": 5,
+        "sorpresa": 2
+      },
+      "hashtags": ["#proyectoNuevo", "#tecnologia"]
+    },
+    {
+      "id": 4,
+      "autorID": 1,
+      "texto": "¡Feliz fin de semana a todos!",
+      "fecha": "2024-06-04T18:20:00Z",
+      "reacciones": {
+        "meGusta": 10,
+        "risa": 3,
+        "sorpresa": 1
+      },
+      "hashtags": ["#finde", "#feliz"]
+    }
+  ],
+  "comentarios": [
+    {
+      "id": 1,
+      "publicidadID": 1,
+      "autorId": 2,
+      "texto": "¡Muy bonita la foto!",
+      "editado": false
+    },
+    {
+      "id": 2,
+      "publicidadID": 1,
+      "autorId": 3,
+      "texto": "¡Bienvenido a la red social!",
+      "editado": true
+    },
+    {
+      "id": 3,
+      "publicidadID": 2,
+      "autorId": 1,
+      "texto": "¡Qué lugar tan increíble!",
+      "editado": false
+    },
+    {
+      "id": 4,
+      "publicidadID": 3,
+      "autorId": 2,
+      "texto": "¡Mucho éxito con tu proyecto!",
+      "editado": false
+    },
+    {
+      "id": 5,
+      "publicidadID": 4,
+      "autorId": 3,
+      "texto": "¡Feliz fin de semana para ti también!",
+      "editado": false
+    }
+  ]
+}
