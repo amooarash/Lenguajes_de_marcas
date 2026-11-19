@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherAPI - Documentación técnica</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>WeatherAPI</h1>
+        <p>Documentación técnica de la API del tiempo.</p>
+
+        <nav>
+            <h2>Menú de navegación</h2>
+            <ul>
+                <li><a href="#introduccion">Introducción</a></li>
+                <li><a href="#autenticacion">Autenticación</a></li>
+                <li><a href="#usuarios">Endpoint de usuarios</a></li>
+                <li><a href="#ciudades">Endpoint de ciudades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2 id="introduccion">Introducción</h2>
+
+            <p>
+                WeatherAPI es una API ficticia que permite consultar
+                información meteorológica de diferentes ciudades.
+            </p>
+
+            <p>
+                Los desarrolladores pueden utilizar esta API
+                para obtener datos del tiempo en sus aplicaciones.
+            </p>
+
+            <p>
+                Para más información, visita:
+                <a href="https://developer.mozilla.org/es/docs/Web/HTTP"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Consultar documentación oficial sobre HTTP en MDN
+                </a>
+            </p>
+        </section>
+
+        <section>
+            <h2 id="autenticacion">Autenticación</h2>
+
+            <p>
+                Para utilizar WeatherAPI, los usuarios necesitan
+                una clave de acceso llamada API Key.
+            </p>
+
+            <p>
+                Esta clave permite identificar al usuario
+                y acceder a los servicios de la API.
+            </p>
+
+            <p>
+                Para conocer las recomendaciones de seguridad:
+                <a href="https://owasp.org/www-project-api-security/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Política de seguridad: recomendaciones OWASP para APIs
+                </a>
+            </p>
+        </section>
+
+        <section>
+            <h2 id="usuarios">Endpoint de usuarios</h2>
+
+            <p>
+                Este endpoint permite consultar información
+                de los usuarios registrados.
+            </p>
+
+            <h3>GET /usuarios</h3>
+
+            <p>
+                Devuelve una lista de usuarios.
+            </p>
+
+            <h3>GET /usuarios/1</h3>
+
+            <p>
+                Devuelve la información del usuario con ID 1.
+            </p>
+        </section>
+
+        <section>
+            <h2 id="ciudades">Endpoint de ciudades</h2>
+
+            <p>
+                Este endpoint permite consultar información
+                meteorológica de diferentes ciudades.
+            </p>
+
+            <h3>GET /ciudades</h3>
+
+            <p>
+                Devuelve una lista de ciudades disponibles.
+            </p>
+
+            <h3>GET /ciudades/1</h3>
+
+            <p>
+                Devuelve la información meteorológica
+                de la ciudad con ID 1.
+            </p>
+        </section>
+
+        <section>
+            <h2 id="contacto">Contacto</h2>
+
+            <p>
+                Si tienes preguntas sobre WeatherAPI,
+                puedes contactar con nuestro equipo.
+            </p>
+
+            <p>
+                Correo electrónico:
+                <a href="mailto:soporte@weatherapi.example">
+                    Enviar un correo al soporte de WeatherAPI
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>WeatherAPI - Documentación técnica</p>
+    </footer>
+
+</body>
+
+</html>

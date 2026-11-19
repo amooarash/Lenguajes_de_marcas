@@ -1,0 +1,67 @@
+1.b
+2.a
+3.d
+4.c
+5.c
+6.a
+7.d
+8.c
+9.a
+10.b
+11.b
+12.c
+13.a
+14.a
+15.c
+16.a
+17.a
+18.c
+19.d
+20.d
+21.a
+22.d
+23.c
+24.a
+25.d
+26.b
+27.c
+28. porque hay que organizar el codigo segun la estructura que tenemos, no para que se vea mas pequeño. para cambiar los tamaños debemos utilizar css
+29.XML bien formado: cumple las reglas básicas de XML, como cerrar correctamente las etiquetas y tener un único elemento raíz.
+XML válido: además de estar bien formado, cumple las reglas definidas en su archivo XSD.
+Mal formato:
+<gimnasio>
+    <rutina>
+        <nombre>Fuerza</nombre>
+        <nivel>Intermedio
+    </rutina>
+</gimnasio>
+Bien formato pero invalido:
+<gimnasio>
+    <rutina>
+        <nombre>Fuerza</nombre>
+        <nivel>Experto</nivel>
+    </rutina>
+</gimnasio>
+30.
+Json
+{
+"id": "P001",
+"nombre": "Raton",
+"precio": 19.99,
+"stock": 20,
+"activo": true
+}
+XML:
+<producto>
+	<id>P001</id>
+	<nombre>Raton </nombre>
+	<precio>19.99</precio>
+	<stock>20</stock>
+	<activo>true</activo>
+</producto>
+
+1. para xml no hace falta declarar tipo de dato
+2. json no nececita que se cierre cada variable ej <x>y</x> pero variable estan entre comillas ""
+3. para cada fila json necesita una comma excepto la ultima fila ya que no queremos continuar a escribir algo 
+
+
