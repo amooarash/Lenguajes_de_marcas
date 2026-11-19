@@ -1,33 +1,33 @@
-1.b
-2.a
-3.d
-4.c
-5.c
-6.a
-7.d
-8.c
-9.a
-10.b
-11.b
-12.c
-13.a
-14.a
-15.c
-16.a
-17.a
-18.c
-19.d
-20.d
-21.a
-22.d
-23.c
-24.a
-25.d
-26.b
-27.c
-28. porque hay que organizar el codigo segun la estructura que tenemos, no para que se vea mas pequeño. para cambiar los tamaños debemos utilizar css
-29.XML bien formado: cumple las reglas básicas de XML, como cerrar correctamente las etiquetas y tener un único elemento raíz.
-XML válido: además de estar bien formado, cumple las reglas definidas en su archivo XSD.
+1.b T
+2.a F-> noopener noreferrer es una de las buenas practicas de seguridad, D DOROST
+3.d F->A
+4.c T
+5.c F->b
+6.a T
+7.d T
+8.c T
+9.a T
+10.b T
+11.b F-> ESTA BIEN FORMATO, YANI XML DOROST NEVESHTE SHODE VA ERROR NADASHTE BASHE, VALI VALIDO NIST CHON GHANUNE XSD RO RAAYAT NAKARDE, D DOROST
+12.c T
+13.a T
+14.a F-> B
+15.c F-> D
+16.a T
+17.a F-> 7 NODOS
+18.c T
+19.d T
+20.d F->B
+21.a T
+22.d T
+23.c T JSON PATH RO NADIDIM HANUZ
+24.a T
+25.d T
+26.b T
+27.c T
+28. porque hay que organizar el codigo segun la estructura que tenemos, no para que se vea mas pequeï¿½o. para cambiar los tamaï¿½os debemos utilizar css
+29.XML bien formado: cumple las reglas bï¿½sicas de XML, como cerrar correctamente las etiquetas y tener un ï¿½nico elemento raï¿½z.
+XML vï¿½lido: ademï¿½s de estar bien formado, cumple las reglas definidas en su archivo XSD.
 Mal formato:
 <gimnasio>
     <rutina>
@@ -42,6 +42,12 @@ Bien formato pero invalido:
         <nivel>Experto</nivel>
     </rutina>
 </gimnasio>
+
+
+BAYAD BARASH XSD BENEVISIM DAR MESAL, BAD YEK XML INVALIDO VA YEKI VALIDO VALI MAL FORMATO
+
+
+
 30.
 Json
 {
