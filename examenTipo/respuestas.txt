@@ -1,0 +1,14 @@
+Tarea1:
+la variable nombre entre ""
+el valor de la variable nombre, que es el nombre del hotel, entre ""
+el valod de estrellas esta como un String, esta bien pero no podemos hacer operacione. depenmde de la persona que escribe el codigo
+el vardadero como true, la letra "t" con minuscula
+al final de la mlista cuando no tenemos mas valores, no tendramos comma ,
+el valor null no tiene que estar entre comillas
+
+Tarea2:
+para estrellas lo pongo como un string porque pienso que
+    no voy a hacer ningin operacion con el
+codigo postal tambien con el mismo razon
+web tambien es de tipo string, como un email o algo parecido
+
